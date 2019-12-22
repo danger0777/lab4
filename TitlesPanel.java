@@ -18,9 +18,7 @@ public class TitlesPanel extends JPanel implements ActionListener
     private int shape;
     
     public TitlesPanel(final int _shape) {
-        this.start_angle = 0;
         this.is_done = true;
-        this.shape = _shape;
         (this.animation = new Timer(50, this)).setInitialDelay(50);
         this.animation.start();
     }
